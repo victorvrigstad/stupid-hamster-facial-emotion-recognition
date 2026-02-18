@@ -9,7 +9,7 @@ emotion_list = ["happy", "sad", "angry", "surprise", "neutral", "fear", "disgust
 emotion_history = []
 
 for emotion in emotion_list:
-    path = f"{emotion}.png"
+    path = f"emotions/{emotion}.png"
     img = cv2.imread(path, cv2.IMREAD_UNCHANGED)
 
     if img is not None:
