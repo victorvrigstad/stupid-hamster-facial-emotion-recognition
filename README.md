@@ -11,4 +11,4 @@ Run the Script
 ```Bash
 python main.py
 ```
-Press q on your keyboard to quit the program.
+Press q to quit the program.
